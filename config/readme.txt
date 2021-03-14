@@ -1,0 +1,1 @@
+You need to change the file name of "dbConfigDemo.php" to "dbConfig.php" and fillup the credentials like your own
