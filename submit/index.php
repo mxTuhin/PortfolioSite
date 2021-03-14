@@ -17,6 +17,7 @@
             <option value="NotSelected" disabled selected>Select an Option</option>
             <option value="web">Web App</option>
             <option value="game">Game</option>
+            <option value="robotics">Robotics</option>
             <option value="random">Random Solutions</option>
         </select><br>
         <input class="form-control" name="img" type="file" accept="image/*" required><br>

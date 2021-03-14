@@ -900,6 +900,9 @@ include('config/dbConfig.php');
                                 <a href="#" data-filter=".game">Game</a>
                             </li>
                             <li>
+                                <a href="#" data-filter=".robotics">Robotics</a>
+                            </li>
+                            <li>
                                 <a href="#" data-filter=".random">Random Solutions</a>
                             </li>
                         </ul>
