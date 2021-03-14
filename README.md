@@ -1,1 +1,2 @@
-Personal Portoflio Site | HTML CSS JS - RAW PHP | Template from Themeforest | Open Sourced
+Personal Portoflio Site | HTML CSS JS - RAW PHP | Template from Themeforest | Open Sourced<br><br>
+You need to change the file name of "dbConfigDemo.php" to "dbConfig.php" and fillup the credentials like your own
