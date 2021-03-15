@@ -63,13 +63,7 @@ if(isset($_POST['submit'])) {
             // 	echo "not Uploaded";
         }
     }
-    header("Location: index.php");
-
-
-
 }
-
-header("Location: index.php");
 
 
 ?>

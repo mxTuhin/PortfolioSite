@@ -1,3 +1,6 @@
+<?php
+include ('submit.php');
+?>
 <html>
 <head>
     <title>Project Submit Page</title>
@@ -8,7 +11,7 @@
           crossorigin="anonymous">
 </head>
 <body>
-<form class="form-control" method="POST" action="submit.php" enctype="multipart/form-data">
+<form class="form-control" method="POST" action="index.php" enctype="multipart/form-data">
     <div align="center" class="container">
         <h3>Project Submission Panel</h3>
         <input class="form-control" placeholder="Project Name" name="project_name" type="text"><br>
