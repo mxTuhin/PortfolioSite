@@ -927,7 +927,7 @@ include('config/dbConfig.php');
     
     
                             <?php
-                            $sql="SELECT * FROM portfolio ORDER BY id DESC";
+                            $sql="SELECT * FROM portfolio ORDER BY project_name ASC";
                             $result=mysqli_query($db, $sql);
                             while($data=mysqli_fetch_assoc($result)) {
                                 ?>
