@@ -44,6 +44,17 @@ include('config/dbConfig.php');
                 
 		<!-- InstanceBeginEditable name="head" -->
     <!-- InstanceEndEditable -->
+
+        <style>
+            @media only screen and (max-width: 600px) {
+                .desktopSection{
+                    background-image:url(images/site/mxTuHin.jpg) !important;
+                }
+            }
+            .desktopSection{
+                background-image:url(images/site/home.jpg)
+            }
+        </style>
         
 	</head>
     
@@ -178,7 +189,7 @@ include('config/dbConfig.php');
                 
                	
                 <!-- PAGE : HOME -->
-                <section id="home" class="pt-page page-layout light-text home-section has-bg-img" style="background-image:url(images/site/home.jpg)">
+                <section id="home" class="pt-page page-layout light-text home-section has-bg-img desktopSection">
                 	<!-- .content -->
                     <div  class="content">
                     	<!-- .layout-medium -->
@@ -194,6 +205,7 @@ include('config/dbConfig.php');
                     <!-- .content -->
                 </section>
                 <!-- PAGE : HOME -->
+
                 
                 
                 
