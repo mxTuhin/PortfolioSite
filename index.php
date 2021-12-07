@@ -7,9 +7,9 @@ include('config/dbConfig.php');
     
 		<meta charset="utf-8" />
         <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
-        <meta name="description" content="Empathy - Responsive HTML5 vCard Template">
-        <meta name="keywords" content="vcard, html5, portfolio">
-        <meta name="author" content="Pixelwars">
+        <meta name="description" content="Online Portfolio of Tuhin Mridha">
+        <meta name="keywords" content="Tuhin Mridha, Portfolio, Game Development">
+        <meta name="author" content="Pixelwars, mxTuHin">
 
         <title>Tuhin Mridha | Game Designer</title>
 
@@ -697,6 +697,50 @@ include('config/dbConfig.php');
         
                                 <!-- col -->
                                 <div class="col-sm-5">
+
+                                    <!-- section-title -->
+                                    <div class="section-title center">
+                                        <h2>
+                                            <i>Engine/Framework Skills</i>
+                                        </h2>
+                                    </div>
+                                    <!-- section-title -->
+
+                                    <!-- .skill-unit -->
+                                    <div class="skill-unit">
+                                        <h4>Unity</h4>
+                                        <div class="bar" data-percent="90">
+                                            <div class="progress"></div>
+                                        </div>
+                                    </div>
+                                    <!-- .skill-unit -->
+
+                                    <!-- .skill-unit -->
+                                    <div class="skill-unit">
+                                        <h4>Blender</h4>
+                                        <div class="bar" data-percent="70">
+                                            <div class="progress"></div>
+                                        </div>
+                                    </div>
+                                    <!-- .skill-unit -->
+
+                                    <!-- .skill-unit -->
+                                    <div class="skill-unit">
+                                        <h4>PHP Laravel</h4>
+                                        <div class="bar" data-percent="90">
+                                            <div class="progress"></div>
+                                        </div>
+                                    </div>
+                                    <!-- .skill-unit -->
+
+                                    <!-- .skill-unit -->
+                                    <div class="skill-unit">
+                                        <h4>Python Django</h4>
+                                        <div class="bar" data-percent="80">
+                                            <div class="progress"></div>
+                                        </div>
+                                    </div>
+                                    <!-- .skill-unit -->
         
         
                                     <!-- section-title -->
@@ -708,28 +752,21 @@ include('config/dbConfig.php');
                                     <!-- section-title -->
                                     
         
+
+    
                                     <!-- .skill-unit -->
                                     <div class="skill-unit">
-                                        <h4>PHP Laravel</h4>
+                                        <h4>C#</h4>
                                         <div class="bar" data-percent="90">
                                             <div class="progress"></div>
                                         </div>
                                     </div>
                                     <!-- .skill-unit -->
-    
+
                                     <!-- .skill-unit -->
                                     <div class="skill-unit">
-                                        <h4>Python Django</h4>
-                                        <div class="bar" data-percent="80">
-                                            <div class="progress"></div>
-                                        </div>
-                                    </div>
-                                    <!-- .skill-unit -->
-    
-                                    <!-- .skill-unit -->
-                                    <div class="skill-unit">
-                                        <h4>C#</h4>
-                                        <div class="bar" data-percent="80">
+                                        <h4>Python</h4>
+                                        <div class="bar" data-percent="85">
                                             <div class="progress"></div>
                                         </div>
                                     </div>
@@ -738,6 +775,24 @@ include('config/dbConfig.php');
                                     <!-- .skill-unit -->
                                     <div class="skill-unit">
                                         <h4>Java</h4>
+                                        <div class="bar" data-percent="85">
+                                            <div class="progress"></div>
+                                        </div>
+                                    </div>
+                                    <!-- .skill-unit -->
+
+                                    <!-- .skill-unit -->
+                                    <div class="skill-unit">
+                                        <h4>C/C++</h4>
+                                        <div class="bar" data-percent="85">
+                                            <div class="progress"></div>
+                                        </div>
+                                    </div>
+                                    <!-- .skill-unit -->
+
+                                    <!-- .skill-unit -->
+                                    <div class="skill-unit">
+                                        <h4>Arduino</h4>
                                         <div class="bar" data-percent="85">
                                             <div class="progress"></div>
                                         </div>
@@ -752,7 +807,7 @@ include('config/dbConfig.php');
                                         </div>
                                     </div>
                                     <!-- .skill-unit -->
-                                    
+
                                     <!-- .skill-unit -->
                                     <div class="skill-unit">
                                         <h4>CSS</h4>
@@ -1082,10 +1137,10 @@ include('config/dbConfig.php');
                             <!-- .contact-form -->
                             <div class="contact-form">
                             
-                                <form id="contact-form" class="validate-form" method="post" action="send-mail.php">
+                                <form id="contact-form" class="validate-form" method="post" action="https://formspree.io/f/mpzbzzna">
                                 
                                     <!-- enter mail subject here -->
-                                    <input type="hidden" name="subject" id="subject" value="You have a new message from Photographer!">
+                                    <input type="hidden" name="subject" id="subject" value="You have a new message from Portfolio Site!">
                                     
                                     <p>
                                       <label for="name">NAME</label>
@@ -1107,8 +1162,9 @@ include('config/dbConfig.php');
                                     </p>
                                     
                                     <p>
-                                      <button class="submit button">Send</button>
+                                      <button onclick="contactFormSubmitButton()" type="submit" class="submit button">Send</button>
                                     </p>
+                                    <p id="contactFormSubmitStatus" style="color: #15e69c; display: none">Form Submitted Successfully</p>
                                 
                                 </form>
                             
@@ -1188,6 +1244,14 @@ include('config/dbConfig.php');
 
         <!--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE"></script>-->
         <script src="js/main.js"></script>
+        <script>
+            function contactFormSubmitButton(){
+                document.getElementById("contactFormSubmitStatus").style.display="block";
+                setTimeout(function () {
+                    document.getElementById("contactFormSubmitStatus").style.display="none";
+                }, 3000);
+            }
+        </script>
 
         
 	</body>
