@@ -18,8 +18,8 @@ include('config/dbConfig.php');
         <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png"/>
 		 
         <!-- FONTS -->
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
             
         <!-- STYLES -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -115,6 +115,11 @@ include('config/dbConfig.php');
                                 <li>
                                     <a href="#/contact">
                                         <i class="pe-7s-call"></i>Contact</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.buymeacoffee.com/mxtuhin" target="_blank">
+                                        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px !important  ;width: 120px !important ;">
+                                        </a>
                                 </li>
 
 
@@ -412,103 +417,7 @@ include('config/dbConfig.php');
                             
                             <!-- CLIENTS -->
                             
-                            <!-- section-title -->
-                            <div class="section-title center">    
-                                <h2>
-                                    <i>clients</i>
-                                </h2>
-                            </div>
-                            <!-- section-title -->
-    
-                            <!-- row -->
-                            <div class="row"> 
-                                
-                                <!-- col -->
-                                <div class="col-xs-4 col-md-2">
-    
-                                    <!-- client -->
-                                    <div class="client">
-                                        <a href="#">
-                                            <img src="images/clients/client-01.png" alt="client">
-                                        </a>
-                                    </div>
-                                    <!-- client -->
-    
-                                </div>
-                                <!-- col -->
-                                
-                                <!-- col -->    
-                                <div class="col-xs-4 col-md-2">
-    
-                                    <!-- client -->
-                                    <div class="client">
-                                        <a href="#">
-                                            <img src="images/clients/client-02.png" alt="client">
-                                        </a>
-                                    </div>
-                                    <!-- client -->
-    
-                                </div>
-                                <!-- col -->
-                                
-                                <!-- col -->    
-                                <div class="col-xs-4 col-md-2">
-    
-                                    <!-- client -->
-                                    <div class="client">
-                                        <a href="#">
-                                            <img src="images/clients/client-03.png" alt="client">
-                                        </a>
-                                    </div>
-                                    <!-- client -->
-    
-                                </div>
-                                <!-- col -->
-                                
-                                <!-- col -->    
-                                <div class="col-xs-4 col-md-2">
-    
-                                    <!-- client -->
-                                    <div class="client">
-                                        <a href="#">
-                                            <img src="images/clients/client-04.png" alt="client">
-                                        </a>
-                                    </div>
-                                    <!-- client -->
-    
-                                </div>
-                                <!-- col -->
-                                
-                                <!-- col -->    
-                                <div class="col-xs-4 col-md-2">
-    
-                                    <!-- client -->
-                                    <div class="client">
-                                        <a href="#">
-                                            <img src="images/clients/client-05.png" alt="client">
-                                        </a>
-                                    </div>
-                                    <!-- client -->
-    
-                                </div>
-                                <!-- col -->
-                                
-                                <!-- col -->    
-                                <div class="col-xs-4 col-md-2">
-    
-                                    <!-- client -->
-                                    <div class="client">
-                                        <a href="#">
-                                            <img src="images/clients/client-06.png" alt="client">
-                                        </a>
-                                    </div>
-                                    <!-- client -->
-    
-                                </div>
-                                <!-- col -->
-    
-                            </div>
-                            <!-- row -->
+                           
                             <!-- CLIENTS -->
                             
                             
@@ -774,7 +683,7 @@ include('config/dbConfig.php');
     
                                     <!-- .skill-unit -->
                                     <div class="skill-unit">
-                                        <h4>Java</h4>
+                                        <h4>PHP</h4>
                                         <div class="bar" data-percent="85">
                                             <div class="progress"></div>
                                         </div>
@@ -783,7 +692,7 @@ include('config/dbConfig.php');
 
                                     <!-- .skill-unit -->
                                     <div class="skill-unit">
-                                        <h4>C/C++</h4>
+                                        <h4>Java</h4>
                                         <div class="bar" data-percent="85">
                                             <div class="progress"></div>
                                         </div>
@@ -801,7 +710,7 @@ include('config/dbConfig.php');
                                     
                                     <!-- .skill-unit -->
                                     <div class="skill-unit">
-                                        <h4>HTML</h4>
+                                        <h4>C/C++</h4>
                                         <div class="bar" data-percent="90">
                                             <div class="progress"></div>
                                         </div>
@@ -810,7 +719,7 @@ include('config/dbConfig.php');
 
                                     <!-- .skill-unit -->
                                     <div class="skill-unit">
-                                        <h4>CSS</h4>
+                                        <h4>HTML/CSS</h4>
                                         <div class="bar" data-percent="90">
                                             <div class="progress"></div>
                                         </div>
@@ -1239,7 +1148,7 @@ include('config/dbConfig.php');
         <script src="js/socialstream.jquery.js"></script>
         <script src="js/jarallax.min.js"></script>
         <script src="js/jarallax-video.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <!--<script src="https://maps.googleapis.com/maps/api/js"></script>-->
         <!-- JavaScript Bundle with Popper -->
 
         <!--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE"></script>-->
