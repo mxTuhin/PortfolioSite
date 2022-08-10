@@ -1161,7 +1161,16 @@ include('config/dbConfig.php');
                 }, 3000);
             }
         </script>
-
+		
+	<!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PJZE72ZF8Y"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-PJZE72ZF8Y');
+        </script>
         
 	</body>
 <!-- InstanceEnd --></html>
